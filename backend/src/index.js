@@ -4,6 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
+/* Instalação do módulo de segurança CORS */
 app.use(cors());
 app.use(express.json());
 app.use(routes);
