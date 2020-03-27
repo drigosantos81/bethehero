@@ -11,9 +11,7 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-app.listen(3333, function(){
-    console.log("Server Activeted");
-});
+module.exports = app;
 
 /*
     * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros paginação)
