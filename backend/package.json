@@ -15,8 +15,12 @@
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
+    "heroku": "^7.39.1",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
+  },
+  "engines": {
+    "node": "12.14."
   },
   "devDependencies": {
     "jest": "^25.2.3",
